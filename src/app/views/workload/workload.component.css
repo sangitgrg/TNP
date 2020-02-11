@@ -1,0 +1,33 @@
+#wrapper {
+    display: flex;
+  }
+  
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid red;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  
+  .week {
+    border: 1px solid red
+  }
+
+  #days {
+    padding: 1;
+    margin: 4px;
+    color: red
+  }
+
+  .workload {
+  overflow-x: auto;
+  }
